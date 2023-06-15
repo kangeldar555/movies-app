@@ -1,0 +1,41 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+}
+
+header,
+form input {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  width: 100%;
+}
+
+main ul{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  gap: 32px;
+  justify-items: center;
+}
+
+main ul h3,
+main ul p {
+  margin: 5px;
+}
